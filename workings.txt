@@ -1,0 +1,71 @@
+sender_name
+> Name of the sender
+
+timestamp_ms
+> epoch timestamp of action
+
+content
+> content of message
+
+is_geoblocked_for_viewer
+> mainly irrelevant, geoblocking of videos etc
+
+reactions
+> list of all reactions on an action
+> sub attributes:
+	reaction
+	> unicode of the reaction
+	
+	actor
+	> name of who reacte
+
+photos
+> photo attached to a message
+> sub attributes:
+	uri
+	> uri of the photo
+	
+	creation_timestamp
+	> timestamp of photo creation
+
+share
+> anytime a link (maybe reel?) is posted
+> sub attributes:
+	link
+	> the link
+	
+	share_text
+	> the text shown
+
+videos
+> videos attached to a message
+> sub attributes:
+	uri
+	> uri of the video
+	
+	creation_timestamp
+	> timestamp of video creation
+	
+call_duration
+> duration of a video call
+
+is_unsent
+audio_files
+
+----
+
+SHARE gives any links posted inc reels shared
+
+
+-------
+
+"content": "Video chat ended"
+"content": "llleeewwwiiiiiisss started a video chat"
+"content": "llleeewwwiiiiiisss liked a message"
+"content": "ria_sand reacted \u00f0\u009f\u0092\u009c to your message "
+"content": "llleeewwwiiiiiisss named the group AAAAAAGH Anonymous."
+"content": "ria_sand started an audio call"
+"content": "You changed the group photo."
+"content": "You sent an attachment."
+"content": "rhea sent an attachment."
+"content": "You shared a story."

@@ -1,0 +1,1 @@
+make sure to manually run combineJsonFiles.py prior to main.py if using on a new dataset
